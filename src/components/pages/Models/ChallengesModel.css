@@ -1,0 +1,37 @@
+.modal {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .modal button {
+    background: #084b83;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .modal button:hover {
+    background: #d94b50;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

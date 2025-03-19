@@ -1,0 +1,86 @@
+/* Centering the auth container */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0D1E3A;
+}
+
+/* Auth box styling */
+.auth-box {
+  background: rgba(29, 49, 81, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+.auth-box h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.auth-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #8394aa;
+  font-size: 16px;
+  background: #152A4A;
+  color: white;
+}
+
+/* Placeholder color */
+.auth-form input::placeholder {
+  color: #A9BACD;
+}
+
+/* Auth button */
+.auth-btn {
+  width: 100%;
+  padding: 12px;
+  background: #1b74e4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+.auth-btn:hover {
+  background: #155ab6;
+}
+
+/* Toggle button */
+.toggle-text {
+  color: white;
+  margin-top: 15px;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: #ff9800;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.toggle-btn:hover {
+  color: #e68900;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .auth-box {
+      width: 90%;
+      padding: 20px;
+  }
+}

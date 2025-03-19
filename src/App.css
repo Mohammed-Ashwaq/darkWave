@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'IBM EGA 8x14';
+  src: url('../src/components/assests/Mx437_IBM_EGA_8x14.ttf') format('truetype');
+}
+
+
+/* Global Reset & Typography */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'IBM EGA 8x14', monospace;
+}
+
+body {
+  font-family: 'IBM EGA 8x14', monospace;
+  background-color: #f4f4f4; /* Soft background color for contrast */
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Section Styles */
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Background Image Sections */
+.services,
+.products,
+.sign-up {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Set specific background images */
+.services {
+  background-image: url(''); 
+}
+
+.products {
+  background-image: url(''); 
+  background-size: cover; /* Changed from 'fill' to 'cover' for better responsiveness */
+}
+
+.sign-up {
+  background-image: url(''); 
+}
+
+/* Responsive Design Improvements */
+@media (max-width: 768px) {
+  .home,
+  .services,
+  .products,
+  .sign-up {
+      font-size: 2rem;
+      height: 80vh;
+  }
+}
+
+
+/* Home.js styling */
+.content-section {
+  text-align: center; 
+  padding: 40px;
+  background-color: #160F30;
+  color: #ffff;
+
+}
+
+.content-wrapper {
+  max-width: 800px; /* Limit width for better readability */
+  margin: 0 auto; /* Centers the div horizontally */
+}
