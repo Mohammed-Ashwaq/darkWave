@@ -1,8 +1,15 @@
 .navbar {
     background: #160F30;
     height: 80px;
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
+=======
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+>>>>>>> 969dfae (added 3 more challenges)
     align-items: center;
     font-size: 1.2rem;
     position: sticky;

@@ -23,6 +23,7 @@ const challenges = [
     correctFlag: "DKW{5f1216cf2bd259b59abe5ddcbd4509e8}"
   },
   {
+<<<<<<< HEAD
     title: "Super SSH",
     solves: 51325,
     difficulty: "Hard",
@@ -36,6 +37,26 @@ const challenges = [
     description: "Analyze git commits for hidden secrets.",
     correctFlag: "flag{git_commit}"
   },
+=======
+    title: "Mr India",
+    solves: 51325,
+    difficulty: "Medium",
+    fileUrl: "/files/Mr-India.txt",
+    description: "Download and the read the challenge file carefully to solve the challegnge.",
+    hint: "This tells search engines what to and what not to avoid.",
+    correctFlag: "DKW{R0b0ts_St4y_0ut}"
+  },
+  {
+    title: "Knock-nock Who's there?",
+    solves: 23903,
+    difficulty: "Medium",
+    description: "Find whos behind the door",
+    fileUrl: "/files/knock.txt",
+    hint: "1. This challenge tests you're Reconnaissance skill, Find the proxy, after solving the challege place the keyword between the flag format ex: DWk{you're answer}",
+    correctFlag: "DWK{Cloudeflare}",
+  },
+
+>>>>>>> 969dfae (added 3 more challenges)
   {
     title: "Blame Game",
     solves: 20339,

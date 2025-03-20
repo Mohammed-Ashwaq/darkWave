@@ -52,11 +52,14 @@ function Navbar() {
                 Events
               </Link>
             </li>
+<<<<<<< HEAD
             <li className="nav-item">
               <Link to="/auth" className="nav-links-mobile" onClick={closeMobileMenu}>
                 Sign up
               </Link>
             </li>
+=======
+>>>>>>> 969dfae (added 3 more challenges)
           </ul>
           {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>

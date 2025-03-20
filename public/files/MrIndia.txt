@@ -1,0 +1,21 @@
+Challenge:
+This challege test your web technology skills . You will be given a web page for which you have to make through to your final flag.
+
+
+How to play the challenge:
+1. open Remote Dektop Connection on your Winodws machine.
+2. Enter this ip "74.224.127.107" allow some time to connect.
+3. After succesful dock you'll need to enter username and password.  [the username & password is case sensitive.]
+        username: dwplayer. 
+        pass: A7t3B9pWzQ       
+5. After logingin you'll get a ubnutu based debian OS.
+6. Make your way to the local host to get started with the challege.
+
+
+note: 
+1. If the local server doesnt seem to be running then start the apache server and try again.
+2. You have 30 mintues to complete this challegne after which the server will automatically logout.
+3. All the tool needed are pre-installed dont install any adtional tools.
+
+
+*************************All the best***************************************
